@@ -1,14 +1,14 @@
-import BookiImage from "../assets/images/projects/booki.png";
-import OhMyFoodImage from "../assets/images/projects/ohmyfood.png";
-import GameOnImage from "../assets/images/projects/gameon.png";
-import FishEyeImage from "../assets/images/projects/fisheye.png";
-import LesPetitsPlatsImage from "../assets/images/projects/lespetitsplats.png";
-import BilledImage from "../assets/images/projects/billed.png";
-import LearnHomeImage from "../assets/images/projects/learnhome.png";
-import KasaImage from "../assets/images/projects/kasa.png";
-import SportSeeImage from "../assets/images/projects/sportsee.png";
-import ArgentBankImage from "../assets/images/projects/argentbank.png";
-import HRNetImage from "../assets/images/projects/hrnet.png";
+import BookiImage from "../../assets/images/projects/booki.png";
+import OhMyFoodImage from "../../assets/images/projects/ohmyfood.png";
+import GameOnImage from "../../assets/images/projects/gameon.png";
+import FishEyeImage from "../../assets/images/projects/fisheye.png";
+import LesPetitsPlatsImage from "../../assets/images/projects/lespetitsplats.png";
+import BilledImage from "../../assets/images/projects/billed.png";
+import LearnHomeImage from "../../assets/images/projects/learnhome.png";
+import KasaImage from "../../assets/images/projects/kasa.png";
+import SportSeeImage from "../../assets/images/projects/sportsee.png";
+import ArgentBankImage from "../../assets/images/projects/argentbank.png";
+import HRNetImage from "../../assets/images/projects/hrnet.png";
 
 export const ProjectData = [
   {
