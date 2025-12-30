@@ -11,7 +11,7 @@ import { LiaLinkedinIn } from 'react-icons/lia';
 import { Link } from 'react-router-dom';
 
 const Home: FC = () => {
-    const technologies = ["JavaScript", 'React', 'Node.js', 'Express', 'MySQL', 'MongoDB', 'Git', 'GitHub', 'Figma'];
+    const technologies = ["Nest.js", "JavaScript", 'React / React Native', 'Node.js', 'Express', 'MySQL', 'MongoDB', 'Redis', 'Wordpress', 'Git', 'GitHub', 'Figma'];
     const projects: Project[] = [
         {
             name: "Podblend",
@@ -100,19 +100,19 @@ const Home: FC = () => {
                             <FaMapMarkerAlt size={20} /> France
                         </span>
                         <h1 className='text-white text-6xl text-center font-bold'>
-                            Je suis <span className='text-orange-500'>Melin Matthieu</span> <br /> Développeur Full Stack
+                            <span className='text-orange-500'>Matthieu Melin</span> <br /> Développeur Full Stack
                         </h1>
                         <p className='text-white text-center'>
-                            Je suis un développeur confirmé avec une expertise solide dans le développement web. J'ai contribué à la réalisation de projets innovants pour des clients de divers secteurs. Mon objectif est de créer des solutions logicielles efficaces et de haute qualité pour résoudre des problèmes complexes. Actuellement ouvert aux opportunités stimulantes dans le domaine de la technologie.
+                            Je suis un développeur confirmé avec une expertise solide dans le développement web. J'ai contribué à la réalisation de projets innovants pour des clients de divers secteurs. Mon objectif est de créer des solutions logicielles efficaces et de haute qualité pour résoudre des problèmes complexes.
                         </p>
                         <div className='grid md:grid-cols-2 gap-4'>
                             <Button
                                 theme='secondary'
-                                onClick={() => { }}>
+                                onClick={() => window.open('https://calendly.com/swizen/parlons-de-votre-projet', '_blank')}>
                                 Réserver un appel
                             </Button>
                             <Button
-                                onClick={() => { }}>
+                                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
                                 Voir mes projets
                             </Button>
                         </div>
@@ -158,8 +158,8 @@ const Home: FC = () => {
 
             <footer className='border-t border-neutral-800 mt-16'>
                 <Container className='p-8'>
-                    <h1 className='text-white text-xl font-bold'>Melin Matthieu</h1>
-                    <p className='text-white'>&copy; Melin Matthieu. Tous droits réservés.</p>
+                    <h1 className='text-white text-xl font-bold'>Matthieu Melin</h1>
+                    <p className='text-white'>&copy; Matthieu Melin. Tous droits réservés.</p>
                     <ul className='mt-4 flex items-center gap-4'>
                         <li>
                             <Link to="https://github.com/matthieumelin" target='_blank' className='text-neutral-600 hover:text-white duration-200'>
